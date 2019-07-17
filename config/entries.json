@@ -10,5 +10,8 @@
   ],
   "lesson_7": [
     "./src/lesson_7/lesson_7.js"
+  ],
+  "hw_7": [
+    "./src/hw_7/hw_7.js"
   ]
 }
