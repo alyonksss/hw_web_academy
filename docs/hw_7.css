@@ -11,8 +11,6 @@
   padding: 0 131px; }
 
 .page-nav {
-  padding-top: 30px;
-  background-color: #313a5a;
   color: #ffffff; }
   .page-nav__header {
     display: inline-block;
@@ -22,7 +20,7 @@
   .page-nav__menu {
     display: inline-block;
     margin-left: 230px;
-    line-height: 2.13;
+    line-height: 2;
     color: #fff;
     font-size: 16px; }
   .page-nav__item {
@@ -39,13 +37,13 @@
 .button {
   border: none;
   background-color: #313a5a;
-  line-height: 2.13;
+  line-height: 2;
   color: #fff;
   font-size: 16px; }
 
 .btn {
   border: none;
-  line-height: 2.13;
+  line-height: 2;
   color: #fff;
   font-size: 16px;
   border-radius: 5px 0;
@@ -55,6 +53,81 @@
     width: 120px;
     height: 40px;
     margin-left: 37px; }
+
+.main {
+  padding-top: 30px;
+  background-color: #313a5a; }
+  .main__concept {
+    margin: 0 auto;
+    display: flex;
+    margin: 0 -16px; }
+  .main__column {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin: 0 16px; }
+  .main__menu {
+    margin-bottom: 55px; }
+  .main__content {
+    margin: 0 auto;
+    padding-top: 120px; }
+  .main__header {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 40px; }
+  .main__text {
+    line-height: 2;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 35px; }
+  .main__button {
+    width: 200px;
+    height: 60px; }
+  .main__image {
+    display: inline-block;
+    margin: 0 auto; }
+
+.image {
+  height: 792px;
+  width: 463px;
+  vertical-align: top; }
+
+.advantages {
+  padding: 66px 30px;
+  position: absolute;
+  top: 810px;
+  left: 91px;
+  display: flex;
+  text-align: left;
+  width: 1167px;
+  border-radius: 10px;
+  box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+  background-color: #ffffff;
+  font-size: 16px; }
+  .advantages__column {
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+    margin: 0 40px; }
+  .advantages__icon {
+    display: inline-block;
+    opacity: 0.1;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #1fdb84; }
+  .advantages__header {
+    color: #031d5b;
+    margin-top: 26px; }
+  .advantages__line {
+    margin-top: 28px;
+    width: 60px;
+    height: 4px;
+    background-color: #1fdb84; }
+  .advantages__text {
+    color: #5b6c94;
+    margin-top: 18px; }
+
+.icon {
+  width: 40px;
+  height: 40px; }
 
 
 /*# sourceMappingURL=hw_7.css.map*/
